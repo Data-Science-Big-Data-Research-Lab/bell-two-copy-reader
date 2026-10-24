@@ -3,6 +3,9 @@
 Code and archived results for the paper *"How many copies is coherence worth? Exact exchange
 rates between two-copy and single-copy readout of quantum data"*.
 
+Repository: <https://github.com/Data-Science-Big-Data-Research-Lab/bell-two-copy-reader> — Data
+Science & Big Data Research Lab, Universidad Pablo de Olavide (Seville, Spain).
+
 Two readers of the same quantum state are compared at an **equal copy budget**: the number of
 times the unknown state is prepared. The coherent reader measures pairs of copies in the Bell
 basis; the single-copy readers use randomised Pauli measurements, locally (random local basis,
@@ -97,5 +100,5 @@ MIT for the code, CC BY 4.0 for the text and figures. See `LICENSE`.
 
 ## Contact
 
-Daniel Martín Pérez (danimap27). Issues and pull requests are welcome; please open an issue
+Daniel Martín Pérez, Data Science & Big Data Research Lab, Universidad Pablo de Olavide. Issues and pull requests are welcome; please open an issue
 before running long sweeps so that we can point you at the archived results instead.
