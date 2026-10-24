@@ -469,16 +469,18 @@ results (Table~\ref{tab:emu}).
 % ---------------------------------------------------------------
 \section*{Data availability}
 NTangled generator weights are public (\url{https://github.com/LSchatzki/NTangled_Datasets}). All
-other data are generated from the listed seeds; per-seed results are in \texttt{results/bell\_qnn/}.
+other data are generated from the listed seeds. Per-seed results, the figures and the scripts
+that rebuild them are archived in the public repository
+\url{https://github.com/danimap27/bell-two-copy-reader}.
 
 \section*{Code availability}
 \begin{sloppypar}
-Repository \texttt{qdata-gates}: \texttt{exp\_bell\_qnn.py} (gate and campaign),
-\texttt{exp\_bell\_paper.py} (scaling, copies, noise, NTangled), \texttt{exp\_bell\_global.py}
-(global reader and bound), \texttt{theory\_bell.py} (exact variances), \texttt{exp\_bell\_learn.py}
-(learned labels), \texttt{exp\_bell\_emulated.py} (device emulation), \texttt{qdlib.py}
-(estimators), \texttt{audit\_*.py}, \texttt{fig\_paper.py} and \texttt{fill\_macros.py}, which
-writes every swept number in this manuscript from the result files.
+All code, archived per-seed results and the manuscript source are at
+\url{https://github.com/danimap27/bell-two-copy-reader}, public. The \texttt{main} branch reproduces
+every number and figure in this paper; the \texttt{audit} branch carries the independent audit
+harness and its report; the \texttt{dev} branch documents the development probes behind each design
+choice. Every swept number in the manuscript is written from the archived JSON files by
+\texttt{fill\_macros.py}, and the seed-42 gate reproduces its archived result bit for bit.
 \end{sloppypar}
 
 \section*{Author contributions}
