@@ -1,0 +1,10 @@
+# Exact versions used for every archived result in results/bell_qnn/
+numpy==2.4.3
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+torch==2.10.0
+pennylane==0.44.1
+qiskit==2.3.0
+qiskit-aer==0.17.2
+qiskit-ibm-runtime==0.45.1

@@ -1,0 +1,1 @@
+{"idea_id": "bell_qnn", "backend": "pennylane", "mode": "campaign", "seed": 789, "oracle_passed": true, "wall_time_sec": 10.37, "metrics": {"ours_test_loss": 0.04909547, "q_baseline_test_loss": 0.200679104, "classical_rival_test_loss": 1.976424056}, "status": "PASS", "kill_reason": ""}

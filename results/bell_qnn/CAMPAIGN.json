@@ -1,0 +1,148 @@
+{
+ "idea": "bell_qnn",
+ "endpoint": "RMSE tr(rho_A^2), bias-corrected, C = 400 equal copies",
+ "n_semillas": 10,
+ "semillas": [
+  0,
+  1,
+  7,
+  42,
+  123,
+  456,
+  789,
+  1234,
+  2024,
+  3407
+ ],
+ "media": -0.14264553470000002,
+ "sd": 0.006167750843293706,
+ "negativos": 10,
+ "p_wilcoxon": 0.0009765625,
+ "p_t": 4.2234919803856114e-14,
+ "efecto_sd": -23.127642202846243,
+ "familia": [
+  "qcnn_tolerant",
+  "bell_qnn"
+ ],
+ "p_familia": {
+  "qcnn_tolerant": 1.0,
+  "bell_qnn": 0.0009765625
+ },
+ "p_holm": {
+  "qcnn_tolerant": 1.0,
+  "bell_qnn": 0.001953125
+ },
+ "verdict": "PASS",
+ "filas": [
+  {
+   "seed": 0,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.050961433,
+   "q_base": 0.194624202,
+   "delta": -0.143662769,
+   "clas_bell": 0.06875,
+   "clas_shadows": 0.16875,
+   "lam": 1.0
+  },
+  {
+   "seed": 1,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.050147056,
+   "q_base": 0.201066635,
+   "delta": -0.150919579,
+   "clas_bell": 0.05,
+   "clas_shadows": 0.13125,
+   "lam": 1.0
+  },
+  {
+   "seed": 7,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.052067928,
+   "q_base": 0.193129028,
+   "delta": -0.1410611,
+   "clas_bell": 0.1125,
+   "clas_shadows": 0.16875,
+   "lam": 1.0
+  },
+  {
+   "seed": 42,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.050480636,
+   "q_base": 0.194154791,
+   "delta": -0.143674155,
+   "clas_bell": 0.08125,
+   "clas_shadows": 0.125,
+   "lam": 1.0
+  },
+  {
+   "seed": 123,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.053000543,
+   "q_base": 0.192420681,
+   "delta": -0.13942013800000003,
+   "clas_bell": 0.05625,
+   "clas_shadows": 0.16875,
+   "lam": 1.0
+  },
+  {
+   "seed": 456,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.05261606,
+   "q_base": 0.196591376,
+   "delta": -0.14397531600000002,
+   "clas_bell": 0.08125,
+   "clas_shadows": 0.18125,
+   "lam": 1.0
+  },
+  {
+   "seed": 789,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.04909547,
+   "q_base": 0.200679104,
+   "delta": -0.151583634,
+   "clas_bell": 0.05,
+   "clas_shadows": 0.11875,
+   "lam": 1.0
+  },
+  {
+   "seed": 1234,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.049782784,
+   "q_base": 0.179670071,
+   "delta": -0.129887287,
+   "clas_bell": 0.1,
+   "clas_shadows": 0.18125,
+   "lam": 1.0
+  },
+  {
+   "seed": 2024,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.050897365,
+   "q_base": 0.19425948,
+   "delta": -0.143362115,
+   "clas_bell": 0.075,
+   "clas_shadows": 0.14375,
+   "lam": 1.0
+  },
+  {
+   "seed": 3407,
+   "status": "PASS",
+   "oracle": true,
+   "ours": 0.051759544,
+   "q_base": 0.190668798,
+   "delta": -0.138909254,
+   "clas_bell": 0.06875,
+   "clas_shadows": 0.09375,
+   "lam": 1.0
+  }
+ ]
+}

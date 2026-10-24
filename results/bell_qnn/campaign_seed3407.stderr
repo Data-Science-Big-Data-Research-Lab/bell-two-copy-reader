@@ -1,0 +1,1 @@
+DETAIL {"seed": 3407, "modo": "campaign", "lam": 1.0, "umbral_pureza": 0.6193532299093668, "rmse": {"bell_corregido": 0.05175954409613857, "sombras": 0.3339130827351378, "rdm": 2.0003599248280532, "sombras_S1_recortadas": 0.1906687983447223}, "clasificacion": {"bell": 0.06875, "sombras": 0.09375, "rival_svm": 0.2}, "copias": 400, "n_est": 400}

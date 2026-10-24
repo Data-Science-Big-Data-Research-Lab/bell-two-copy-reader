@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: >-
+  How many copies is coherence worth? Exact exchange rates between
+  two-copy and single-copy readout of quantum data
+message: If you use this code or the archived results, please cite the paper.
+type: software
+authors:
+  - family-names: Martín Pérez
+    given-names: Daniel
+    affiliation: University of Pablo de Olavide, Seville, Spain
+repository-code: https://github.com/danimap27/bell-two-copy-reader
+license: MIT
+keywords:
+  - quantum data
+  - randomized measurements
+  - classical shadows
+  - Bell sampling
+  - sample complexity
+  - purity
+  - entanglement

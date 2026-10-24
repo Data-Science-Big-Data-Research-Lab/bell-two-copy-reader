@@ -1,0 +1,1 @@
+DETAIL {"seed": 42, "bell_err": 0.0875, "sombras_pureza_err": 0.1625, "sombras_pauli_err": 0.5125, "rival_svm": 0.2, "copias": 400, "umbral_pureza": 0.6375687301798654, "rmse_pureza_A": {"bell": 0.04926843643582206, "sombras": 0.3962753533657647}}
